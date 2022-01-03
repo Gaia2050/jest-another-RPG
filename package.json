@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaia2050/jest-another-RPG.git"
+  },
+  "author": "Gaia Guinouard-Balconi-Weida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaia2050/jest-another-RPG/issues"
+  },
+  "homepage": "https://github.com/Gaia2050/jest-another-RPG#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
