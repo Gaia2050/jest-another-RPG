@@ -75,7 +75,7 @@ test('subtracts from players health', () => {
 
 test('uses a potion from inventory', () => {
     const player = new Player('BugBear');
-    player.inventory. = [new Potion(), new Potion(), new Potion()];
+    player.inventory = [new Potion(), new Potion(), new Potion()];
     const oldCount = player.inventory.length;
 
     player.usePotion(1);
