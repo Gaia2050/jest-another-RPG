@@ -64,14 +64,14 @@ test('subtracts from players health', () => {
     expect(player.health).toBe(0);
 });
 
-// test('adds a potion to the inventory', () => {
-//     const player = new Player('BugBear');
-//     const oldCount = player.inventory.length;
+test('adds a potion to the inventory', () => {
+    const player = new Player('BugBear');
+    const oldCount = player.inventory.length;
 
-//     player.addPotion(new Potion());
+    player.addPotion(new Potion());
 
-//     expect(player.inventory.length).toBeGreaterThan(oldCount);
-// });
+    expect(player.inventory.length).toBeGreaterThan(oldCount);
+});
 
 test('uses a potion from inventory', () => {
     const player = new Player('BugBear');
